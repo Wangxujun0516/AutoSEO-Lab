@@ -1,0 +1,103 @@
+# ===== Secrets & credentials — NEVER COMMIT =====
+credentials.json
+client_secret*.json
+service_account*.json
+*_token.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.env
+.env.*
+*.token
+config.local.yaml
+config.local.yml
+secrets.yaml
+secrets.yml
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+develop-eggs/
+sdist/
+wheels/
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# Test / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+nosetests.xml
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# ===== SEO / data exports =====
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+*.json.bak
+
+# ===== Reports & logs =====
+logs/
+*.log
+*.bak
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ===== Temp / cache =====
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
