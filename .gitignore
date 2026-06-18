@@ -101,3 +101,10 @@ desktop.ini
 *.cache
 tmp/
 temp/
+
+
+# VitePress build artifacts
+node_modules/
+.vitepress/
+docs/.vitepress/cache/
+docs/.vitepress/dist/

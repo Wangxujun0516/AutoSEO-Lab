@@ -1,0 +1,30 @@
+{
+  "name": "autoseo-lab",
+  "version": "1.0.0",
+  "description": "> A hands-on laboratory for **Technical SEO** and **GEO (Generative Engine Optimization)**, > engineered with Python automation for B2B industrial domains.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangxujun0516/AutoSEO-Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Wangxujun0516/AutoSEO-Lab/issues"
+  },
+  "homepage": "https://github.com/Wangxujun0516/AutoSEO-Lab#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.38"
+  }
+}
