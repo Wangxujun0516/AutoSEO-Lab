@@ -250,6 +250,24 @@ SEO-TASK-002,SUCCESS,Heavy-Duty Hydraulic Valve Durability Specs
 SEO-TASK-003,FAILED,STATUS_ERROR: Missing Meta Title
 ```
 
+### 📊 运行成果（可视化表格）
+
+下面是实际运行后的审计结果展示：
+
+| Task ID | Status | Extracted Meta Title |
+|---------|--------|---------------------|
+| SEO-TASK-001 | ✅ SUCCESS | 12V Electric RV Leveling Jacks |
+| SEO-TASK-002 | ✅ SUCCESS | Heavy-Duty Hydraulic Valve Durability Specs |
+| SEO-TASK-003 | ❌ FAILED | STATUS_ERROR: Missing Meta Title |
+| SEO-TASK-004 | ✅ SUCCESS | Industrial Hydraulic Cylinder Specifications |
+| SEO-TASK-005 | ✅ SUCCESS | Precision Gear Motor for Robotics |
+| SEO-TASK-006 | ❌ FAILED | STATUS_ERROR: Missing Meta Title |
+
+**统计摘要**：
+- **数据总数**: 6 条
+- **成功**: 4 条（66.7%）
+- **失败**: 2 条（33.3%）
+
 ### 工业级写入姿势
 
 ```python
