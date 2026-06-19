@@ -3,6 +3,7 @@ credentials.json
 client_secret*.json
 service_account*.json
 *_token.json
+token.json
 *.pem
 *.key
 *.crt
