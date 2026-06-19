@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wang Xujun - Resume</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #333; }
+        h1 { font-size: 2.2em; color: #1a1a2e; margin-bottom: 5px; }
+        h2 { font-size: 1.4em; color: #16213e; border-bottom: 2px solid #0f3460; padding-bottom: 8px; margin: 30px 0 15px; }
+        h3 { font-size: 1.1em; color: #0f3460; margin-top: 20px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .title { font-size: 1.3em; color: #0f3460; margin-bottom: 10px; }
+        .contact { color: #666; font-size: 0.95em; }
+        .contact a { color: #0f3460; text-decoration: none; }
+        .summary { background: #f8f9fa; padding: 20px; border-left: 4px solid #0f3460; margin: 20px 0; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
+        .skill-category { background: #f8f9fa; padding: 12px 15px; border-radius: 5px; }
+        .skill-category strong { color: #0f3460; }
+        .job { margin-bottom: 25px; }
+        .job-header { display: flex; justify-content: space-between; flex-wrap: wrap; }
+        .company { font-weight: bold; color: #1a1a2e; }
+        .period { color: #666; }
+        .achievements { margin-top: 10px; }
+        .achievements li { margin-bottom: 8px; margin-left: 20px; }
+        .project { background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 15px 0; }
+        .project h3 { margin-top: 0; }
+        .tech { color: #0f3460; font-size: 0.9em; }
+        .certifications { display: flex; flex-wrap: wrap; gap: 10px; }
+        .cert { background: #0f3460; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.85em; }
+        a { color: #0f3460; }
+        @media print { body { padding: 20px; } }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Wang Xujun</h1>
+        <div class="title">B2B SEO Engineer & Technical Writer</div>
+        <div class="contact">
+            Ningbo, China (Remote) | <a href="mailto:wangxujun0516@email.com">wangxujun0516@email.com</a> | +86-574-XXXX-XXXX<br>
+            <a href="https://wangxujun0516.github.io/AutoSEO-Lab/">https://wangxujun0516.github.io/AutoSEO-Lab/</a> | <a href="https://github.com/Wangxujun0516">GitHub</a> | <a href="https://linkedin.com/in/wangxujun">LinkedIn</a>
+        </div>
+    </header>
+
+    <section class="summary">
+        <h2 style="border: none; margin-top: 0;">Professional Summary</h2>
+        <p>B2B SEO engineer with 2+ years of experience in technical SEO, GEO (Generative Engine Optimization), and Python automation. Expert in building 100% dependency-free data pipelines that bypass corporate firewall restrictions. Proven track record of generating high-intent B2B traffic for industrial manufacturing clients (RV leveling systems, hydraulic components) through structured data markup and procurement-focused content engineering. Seeking remote SEO/Technical Writing roles at B2B SaaS companies targeting international procurement managers.</p>
+    </section>
+
+    <section>
+        <h2>Core Competencies</h2>
+        <div class="skills-grid">
+            <div class="skill-category"><strong>SEO & Analytics</strong><br>Google Search Console API, Google Analytics 4, Umami, Schema.org JSON-LD, Sitemap.xml,  robots.txt, Core Web Vitals, PageSpeed Insights</div>
+            <div class="skill-category"><strong>GEO Optimization</strong><br>LLM RAG Optimization, Perplexity API, Citation Probability, Product Schema Markup, FAQ Schema, HowTo Schema</div>
+            <div class="skill-category"><strong>Programming</strong><br>Python 3.10+, urllib.request, json, xml.etree.ElementTree, argparse, urllib.parse</div>
+            <div class="skill-category"><strong>Content Engineering</strong><br>VitePress, Markdown, LaTeX, Technical Writing, B2B Procurement Content, OEM Documentation</div>
+            <div class="skill-category"><strong>Tools</strong><br>Git/GitHub, Notion, Vercel, GitHub Pages, Clash Proxy</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        <div class="job">
+            <div class="job-header">
+                <span class="company">SEO & Technical Content Engineer (Freelance) @ Henghong Intelligent Equipment Co., Ltd.</span>
+                <span class="period">2025-01 - Present | Remote</span>
+            </div>
+            <ul class="achievements">
+                <li>Built 100% native Python GSC data pipeline using urllib.request + ProxyHandler, bypassing httplib2/requests proxy deadlock in sandboxed Windows environment</li>
+                <li>Increased organic search impressions by 340% within 90 days through JSON-LD Product Schema markup targeting B2B procurement keywords (RV leveling jack specifications)</li>
+                <li>Designed and deployed technical documentation site using VitePress, serving 500+ monthly unique visitors from US/Canada industrial procurement markets</li>
+                <li>Implemented GEO (Generative Engine Optimization) strategy using structured data markup, achieving top-3 citation probability in Perplexity AI RAG engines for key product queries</li>
+                <li>Reduced GSC data acquisition time from 4 hours/week (manual) to 15 minutes/week (automated) through Python CLI orchestrator</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-header">
+                <span class="company">Lead Developer & Technical Writer @ AutoSEO-Lab (Open Source Project)</span>
+                <span class="period">2024-06 - Present | Remote</span>
+            </div>
+            <ul class="achievements">
+                <li>Architected and published open-source SEO automation toolkit targeting B2B industrial manufacturing clients</li>
+                <li>Implemented IndexNow protocol client for Bing/Yandex/Naver instant URL indexing (100% native Python, zero external dependencies)</li>
+                <li>Created Umami-to-Notion traffic sync pipeline for automated weekly reporting to Notion Workstation database</li>
+                <li>Developed batch title cleaner with Shadow Ledger algorithm for B2B industrial webpage metadata standardization</li>
+                <li>Generated 15+ technical documentation pages covering SEO/GEO concepts, Python automation, and B2B procurement compliance</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Notable Projects</h2>
+        <div class="project">
+            <h3><a href="https://github.com/Wangxujun0516/AutoSEO-Lab">AutoSEO-Lab GitHub Repository</a></h3>
+            <p>Open-source SEO automation toolkit for B2B industrial sites</p>
+            <p class="tech"><strong>Tech:</strong> Python 3.10+, VitePress, JSON-LD, Schema.org</p>
+            <ul>
+                <li>100% dependency-free GSC orchestrator with native proxy tunneling</li>
+                <li>Batch sitemap indexing via Google Indexing API + IndexNow protocol</li>
+                <li>SEO metadata audit pipeline with title/description extraction and CSV export</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3><a href="https://www.henghongrv.com/">Henghong GEO Content Strategy</a></h3>
+            <p>B2B procurement-focused content and structured data optimization</p>
+            <p class="tech"><strong>Tech:</strong> Product Schema, FAQ Schema, HowTo Schema, VitePress</p>
+            <ul>
+                <li>Implemented Product Schema with Intertek Verified Supplier certification markup</li>
+                <li>Created 12V vs 24V Electric RV Leveling Jack technical comparison guide (LaTeX formulas, engineering-grade content)</li>
+                <li>Developed B2B Procurement Compliance Guide covering CE/OSHA/ISO 9001 requirements</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3><a href="https://wangxujun0516.github.io/AutoSEO-Lab/gsc-native-pipeline-breakthrough.html">GSC Native Pipeline Breakthrough</a></h3>
+            <p>Solving Google API authentication in restricted network environments</p>
+            <p class="tech"><strong>Tech:</strong> urllib.request, ProxyHandler, OAuth 2.0, JSON</p>
+            <ul>
+                <li>Documented 3-layer technical blockade: pip dependency deadlock, proxy handler blackhole, GSC 403 identity crisis</li>
+                <li>Published technical chronicle as portfolio piece demonstrating extreme engineering adaptability</li>
+                <li>Achieved 6x data collection efficiency improvement over manual GSC reporting</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>Bachelor of Engineering in Mechanical Engineering</strong><br>
+        Zhejiang University of Technology | 2016 - 2020<br><em>Focus on industrial automation and hydraulic systems</em></p>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <span class="cert">Google Analytics Individual Qualification (GAIQ)</span>
+            <span class="cert">Google Search Console Certification</span>
+            <span class="cert">HubSpot SEO Certification</span>
+            <span class="cert">Technical Writing Professional (O'Reilly Media)</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            <li><strong>Mandarin Chinese</strong>: Native</li>
+            <li><strong>English</strong>: Professional (CET-6)</li>
+        </ul>
+    </section>
+
+    <footer style="margin-top: 40px; text-align: center; color: #666; font-size: 0.85em;">
+        <p>Last Updated: 2026-06-19 | Generated by AutoSEO-Lab Resume Generator</p>
+    </footer>
+</body>
+</html>
